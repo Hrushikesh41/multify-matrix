@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Header/Navbar'
 import Matrix from './pages/Matrix/Matrix'
 import DoubleMatrix from './pages/newMatrix/Doublematrix'
 import TripleMatrix from './pages/TripleMatrix/TripleMatrix'
@@ -14,8 +13,8 @@ function App() {
         <Routes>
          
           <Route exact path='/' element={<Matrix />} />
-          <Route exact path='3X3' element={<TripleMatrix />} />
-          <Route exact path='2X3' element={<DoubleMatrix />} />
+          <Route exact path='/3X3' element={<TripleMatrix />} />
+          <Route exact path='/2X3' element={<DoubleMatrix />} />
         </Routes>
       </BrowserRouter>
     </>
