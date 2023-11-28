@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Header/Navbar'
 import Matrix from './pages/Matrix/Matrix'
-import DoubleMatrix from './pages/2X3/Doublematrix'
+import DoubleMatrix from './pages/newMatrix/Doublematrix'
 import TripleMatrix from './pages/TripleMatrix/TripleMatrix'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
